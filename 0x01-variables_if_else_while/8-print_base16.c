@@ -8,11 +8,20 @@ int main(void)
 	int num;
 	char u;
 
-	for (num = 0; num < 0; num++)
-		putchar((num % 10) + '0');
-
-	for (u = 'a'; u <= 'f'; u++)
-		putchar(u);
+	num = 0;
+	u = 'a';
+	while
+		(num < 10)
+		{
+			putchar(num + '0');
+			num++;
+		}
+	while
+		(u <= 'f')
+		{
+			putchar(u);
+			u++;
+		}
 
 	putchar('\n');
 
