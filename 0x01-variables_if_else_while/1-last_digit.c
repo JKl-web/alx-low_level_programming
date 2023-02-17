@@ -6,7 +6,7 @@
 /**
  * main - main function
  * Return: Always 0
- *i/
+ */
 int main(void)
 {
 	int n;
